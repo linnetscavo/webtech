@@ -12,7 +12,7 @@ body{
     
 }
 .header{
-    font-family: Arial;
+    font-family: 'Courier New', Courier, monospace;
     background-color:green;
     color:white;
     text-align: center;
