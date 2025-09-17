@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    
+}
+.list{
+    background-color: bisque;
+    height: 80px;
+    width: 500px;
+    padding: 5px 0;
+    
+} 
+ul{
+    margin: 5px 0;
+
+}
+
+
+.container{
+    display: flex;
+    background-color: aqua;
+    flex: 1;
+    border: 1px solid black;
+    
+}
+.left{
+    flex-direction: column;
+}
+.gray-box{
+    flex: 1;
+    background-color: darkgray;
+    margin: 0 5px;
+}
+
+@media screen and (max-width:720px) {
+    .container{
+        flex-direction: column;
+    }
+    .gray-box{
+        margin: 0;
+        width: 400px;
+    }
+    .list{
+        width: 120px;
+    }
+}

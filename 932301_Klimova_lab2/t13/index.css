@@ -1,0 +1,52 @@
+
+body{
+    min-height: 100vh;
+}
+.list{
+    background-color: bisque;
+    height: 80px;
+    width: 400px;
+    padding: 5px 0;
+    
+}
+ul{
+    margin: 5px 0;
+
+}
+.container{
+    height: 100%;
+    display: flex;
+    background-color: aqua;
+    flex: 1;
+    border: 1px solid black;
+    
+}
+
+.gray-box{
+    height: 100%;
+    flex: 1;
+    background-color: darkgray;
+
+}
+.kart{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 100%;
+}
+img{
+    width: 500px;
+    height: 500px;
+}
+@media screen and (max-width: 1400px) {
+  .list {
+    width: 28%;
+  }
+  .kart {
+    display: block;
+  }
+  img {
+    width: 50%;
+    height: 10%;
+    float: right;
+  }
+}

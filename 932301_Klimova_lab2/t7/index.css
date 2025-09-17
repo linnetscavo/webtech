@@ -1,0 +1,46 @@
+body{
+    color:white;
+}
+.first-static{
+    width: 150px;
+    height: 100px;
+    background-color: blueviolet;
+    position: static;
+}
+ .second-relative{
+    position: relative;
+    background-color: darkred;
+    width: 150px;
+    height: 100px;
+}
+.third-relative{
+    position: relative;
+    background-color: peru;
+    width: 150px;
+    height: 100px;
+    bottom: 25px;
+    left: 30px;
+}
+.big-relative{
+    z-index: 1;
+    position: relative;
+    background-color: indianred;
+    width: 600px;
+    height: 350px;
+} 
+.absolute-w-parent{
+    position: absolute;
+    width: 270px;
+    height: 180px;
+    background-color: indigo;
+    right: 0;
+    top: 100px ;
+}
+.fixed{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}

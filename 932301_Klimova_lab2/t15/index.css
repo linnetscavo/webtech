@@ -1,0 +1,19 @@
+.inline-container {
+    padding: 0.1em;
+}
+
+.inline-block {
+    display: inline-block;
+    background-color: aquamarine;
+    /*padding: 1.5em;*/
+    width: 200px;
+    height: 100px;
+    margin: 15px;
+  
+
+}
+
+.box {
+    background-color: bisque;
+
+}

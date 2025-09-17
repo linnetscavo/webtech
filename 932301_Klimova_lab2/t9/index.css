@@ -1,0 +1,13 @@
+
+.box{
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    width: 600px;
+    margin: 0 auto;
+
+}
+img{
+    float: right;
+    padding: 0 0 15px 15px;
+
+}
